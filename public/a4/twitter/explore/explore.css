@@ -1,0 +1,69 @@
+.wd-search {
+    background-color: darkgray;
+    color: white;
+    width: 500px;
+    height: 30px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+    margin-top: 7px;
+    margin-right: 12px;
+}
+.wd-pic-float {
+    float: right;
+    margin-top: -38px;
+    margin-right: 16px;
+}
+.wd-link {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+    text-decoration: none
+}
+.wd-clicked-link {
+    color: rgb(29, 161, 242);
+    font-size: 15px;
+    padding: 16px;
+}
+.wd-post{
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-pic-post{
+    border: 1px solid rgb(47, 51, 54);
+    height: 120px;
+}
+
+.wd-topic{
+    margin-top: 10px;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-title{
+    color: white;
+}
+
+.wd-tweets{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.wd-author {
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.wd-img {
+    float: right;
+    border-radius: 25px;
+    margin-right: 16px;
+}

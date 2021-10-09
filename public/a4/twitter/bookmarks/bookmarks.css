@@ -1,0 +1,91 @@
+* {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-heading {
+    color: white;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.wd-handle {
+    color: lightgray;
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+    margin-left: 16px;
+}
+
+.wd-avatar {
+    float: left;
+    border-radius: 25px;
+    margin-top: 12px;
+    margin-right: 12px;
+    margin-left: 16px;
+}
+
+.wd-arthur {
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.wd-content {
+    float: left;
+    width: 506px;
+    color:white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}
+
+.wd-img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: 76px;
+}
+
+.wd-title{
+    font-size: 15px;
+    width: 506px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 76px;
+}
+
+.wd-text{
+    font-size: 15px;
+    width: 506px;
+    color: lightgray;
+    margin-left: 76px;
+    margin-bottom: 12px;
+}
+
+.wd-pad{
+    padding:12px;
+}
+
+.wd-icon{
+    color: lightgray;
+    width: 20px;
+    height: 20px;
+    margin-left: 76px;
+    margin-right: 12px;
+    text-decoration: none
+}
+
+.wd-liked-num{
+    color: red;
+    text-decoration: none
+}
+
+
+.wd-num{
+    color: lightgray;
+    text-decoration: none
+}
+
