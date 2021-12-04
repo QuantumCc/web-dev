@@ -7,39 +7,47 @@ import a6Practice from "./components/a6/Practice";
 import a6Build from "./components/a6/Build";
 import a7Practice from "./components/a7/Practice";
 import a7Build from "./components/a7/Build";
-import { BrowserRouter, Route } from "react-router-dom";
-import who from "./reducers/who";
-import tweets from "./reducers/tweets";
-import { combineReducers, createStore } from "redux";
-import {Provider} from "react-redux";
-const reducer = combineReducers({ tweets: tweets, who });
-const store = createStore(reducer);
+import a8Practice from "./components/a8/Practice";
+import a8Build from "./components/a8/Build";
+import a9 from "./components/a9";
+import { Link, BrowserRouter, Route} from "react-router-dom";
+
 
 
 
 function App() {
     return (
-        <Provider store={store}>
-            <BrowserRouter>
-                <div className="container">
-                    <Route path="/a6/hello" exact={true}>
-                        <HelloWorld />
-                    </Route>
-                    <Route path={["/", "/a6", "/a6/practice"]} exact={true}>
-                        <a6Practice />
-                    </Route>
-                    <Route path="/a6/build" exact={true}>
-                        <a6Build />
-                    </Route>
-                    <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
-                        <a7Practice/>
-                    </Route>
-                    <Route path="/a7/twitter">
-                        <a7Build/>
-                    </Route>
-                </div>
-            </BrowserRouter>
-        </Provider>
+        <BrowserRouter>
+            <div className="container">
+                <Link to="/a8/practice">A8</Link> |
+                <Link to="/a9/practice">A9</Link>
+
+                <Route path="/a6/hello" exact={true}>
+                    <HelloWorld />
+                </Route>
+                <Route path={["/", "/a6", "/a6/practice"]} exact={true}>
+                    <a6Practice />
+                </Route>
+                <Route path="/a6/build" exact={true}>
+                    <a6Build />
+                </Route>
+                <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
+                    <a7Practice/>
+                </Route>
+                <Route path="/a7/twitter">
+                    <a7Build/>
+                </Route>
+                <Route path={["/", "/a8", "/a8/practice"]} exact={true}>
+                    <a8Practice/>
+                </Route>
+                <Route path="/a8/twitter">
+                    <a8Build/>
+                </Route>
+                <Route path={["/", "/a9"]}>
+                    <a9/>
+                </Route>
+            </div>
+        </BrowserRouter>
     );
 }
 
